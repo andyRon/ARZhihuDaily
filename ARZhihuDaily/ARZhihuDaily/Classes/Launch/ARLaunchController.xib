@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ARLaunchController">
+            <connections>
+                <outlet property="backgroundImageView" destination="Wzn-w4-vbz" id="DCc-d6-WKk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wzn-w4-vbz">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Login_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="mbq-ef-tMN">
+                    <rect key="frame" x="125" y="520" width="125" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="125" id="Mgz-J1-cSu"/>
+                        <constraint firstAttribute="height" constant="45" id="pFE-zp-vmQ"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Wzn-w4-vbz" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="2Re-7t-htu"/>
+                <constraint firstItem="Wzn-w4-vbz" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="30J-nQ-rUG"/>
+                <constraint firstItem="mbq-ef-tMN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="81J-9B-fLJ"/>
+                <constraint firstItem="mbq-ef-tMN" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="500" id="VIY-VX-4pd"/>
+                <constraint firstItem="Wzn-w4-vbz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="i10-IG-swo"/>
+                <constraint firstItem="Wzn-w4-vbz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="wrc-o2-HJm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Login_Logo" width="125" height="45"/>
+    </resources>
+</document>
