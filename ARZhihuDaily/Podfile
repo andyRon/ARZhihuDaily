@@ -9,5 +9,5 @@ target 'ARZhihuDaily' do
   pod 'ReactiveCocoa', '~>2.1.8'
   pod 'AFNetworking', '~> 2.5.4'
   pod 'SDWebImage', '~> 4.0'
-
+  pod 'MJExtension'
 end

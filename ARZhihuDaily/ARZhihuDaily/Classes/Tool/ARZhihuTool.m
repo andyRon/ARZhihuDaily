@@ -7,35 +7,29 @@
 //
 
 #import "ARZhihuTool.h"
-#import "ARHTTPTool.h"
-#import "ARVersion.h"
-#import "MJExtension.h"
-#import "ARDetailStory.h"
-#import "ARCacheTool.h"
-#import "ARExtraStory.h"
-#import "ARLastestParamResult.h"
-#import "ARComment.h"
-#import "ARAccount.h"
-#import "ARRecommenderResult.h"
-#import "ARThemeItem.h"
+#import "FMDB.h"
+#import "NSString+MD5.h"
+
 
 @implementation ARZhihuTool
 
+
+
 + (void)load {
     [ARDetailStory mj_setupObjectClassInArray:^NSDictionary *{
-        return @{@"recommenders":@"ARRecommender"};
+//        return @{@"recommenders":@"ARRecommender"};
+        return @{@"recommenders": [ARRecommender class]};
     }];
-    
-    
-    
+
+
     [ARLastestParamResult mj_setupObjectClassInArray:^NSDictionary *{
         return @{@"top_stories":@"ARStory", @"stories":@"ARStory"};
     }];
-    
+
     [ARBeforeStoryResult mj_setupObjectClassInArray:^NSDictionary *{
         return @{@"stories":@"ARStory"};
     }];
-    
+
     [ARThemeItem mj_setupObjectClassInArray:^NSDictionary *{
         return @{@"stories": @"ARStory", @"editors":@"AREditor"};
     }];

@@ -13,6 +13,10 @@
 #import "MBProgressHUD+YS.h"
 #import "ARNetworkTool.h"
 
+#import "MJExtension.h"
+#import "ARDetailStory.h"
+
+
 #import "ARMainViewController.h"
 
 @interface ARLaunchController ()
@@ -31,25 +35,39 @@
     
     ARMainViewController *mainVC = [[ARMainViewController alloc] init];
     [mainVC view];
-    [ARZhihuTool getLaunchImageWithCompleted:^(id obj) {
-        [kUserDefaults setObject:obj forKey:@"launchScreen"];
-        [self.backgroundImageView sd_setImageWithURL:[NSURL URLWithString:obj]];
+    
+    [UIView animateWithDuration:1.89 animations:^{
+        self.backgroundImageView.alpha = 0.0;
+        self.backgroundImageView.transform = CGAffineTransformMakeScale(1.2, 1.2);
+    } completion:^(BOOL finished) {
         
-        AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-        delegate.mainController = mainVC;
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            
-            [UIView animateWithDuration:1.89 animations:^{
-                self.backgroundImageView.alpha = 0.0;
-                self.backgroundImageView.transform = CGAffineTransformMakeScale(1.2, 1.2);
-            } completion:^(BOOL finished) {
-                
-                [UIApplication sharedApplication].keyWindow.rootViewController = mainVC;
-            }];
-        });
-    } failure:^{
-//        [MBProgressHUD showError:@"网络太差"];
+        [UIApplication sharedApplication].keyWindow.rootViewController = mainVC;
     }];
+    
+//    [ARDetailStory mj_setupObjectClassInArray:^NSDictionary *{
+//        return @{@"recommenders":@"SYRecommender"};
+//
+//    }];
+    
+//    [ARZhihuTool getLaunchImageWithCompleted:^(id obj) {
+//        [kUserDefaults setObject:obj forKey:@"launchScreen"];
+//        [self.backgroundImageView sd_setImageWithURL:[NSURL URLWithString:obj]];
+//
+//        AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+//        delegate.mainController = mainVC;
+//        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//
+//            [UIView animateWithDuration:1.89 animations:^{
+//                self.backgroundImageView.alpha = 0.0;
+//                self.backgroundImageView.transform = CGAffineTransformMakeScale(1.2, 1.2);
+//            } completion:^(BOOL finished) {
+//
+//                [UIApplication sharedApplication].keyWindow.rootViewController = mainVC;
+//            }];
+//        });
+//    } failure:^{
+//        [MBProgressHUD showError:@"网络太差"];
+//    }];
 }
 
 

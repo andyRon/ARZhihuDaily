@@ -59,27 +59,6 @@
 		EFEC49F120C279290063CA23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFEC49F320C279290063CA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFEC49F420C279290063CA23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EFEC49FD20C27AE30063CA23 /* MJPropertyKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
-		EFEC49FE20C27AE30063CA23 /* NSObject+MJClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
-		EFEC49FF20C27AE30063CA23 /* NSString+MJExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
-		EFEC4A0020C27AE30063CA23 /* MJPropertyType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
-		EFEC4A0120C27AE30063CA23 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
-		EFEC4A0220C27AE30063CA23 /* MJExtensionConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
-		EFEC4A0320C27AE30063CA23 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
-		EFEC4A0420C27AE30063CA23 /* MJProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
-		EFEC4A0520C27AE30063CA23 /* MJFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
-		EFEC4A0620C27AE30063CA23 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
-		EFEC4A0720C27AE30063CA23 /* MJExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
-		EFEC4A0820C27AE30063CA23 /* MJExtensionConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
-		EFEC4A0920C27AE30063CA23 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
-		EFEC4A0A20C27AE30063CA23 /* MJPropertyType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
-		EFEC4A0B20C27AE30063CA23 /* NSObject+MJClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
-		EFEC4A0C20C27AE30063CA23 /* NSString+MJExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
-		EFEC4A0D20C27AE30063CA23 /* MJPropertyKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
-		EFEC4A0E20C27AE30063CA23 /* MJProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
-		EFEC4A0F20C27AE30063CA23 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
-		EFEC4A1020C27AE30063CA23 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
-		EFEC4A1120C27AE30063CA23 /* MJFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
 		EFEC4A1320C27AE30063CA23 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
 		EFEC4A1420C27AE30063CA23 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
 		EFEC4A1520C27AE30063CA23 /* MMDrawerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
@@ -274,7 +253,6 @@
 		EFEC49FB20C27AE30063CA23 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				EFEC49FC20C27AE30063CA23 /* MJExtension */,
 				EFEC4A1220C27AE30063CA23 /* MMDrawerController */,
 				EFEC4A1C20C27AE30063CA23 /* FDTemplateLayoutCell */,
 				EFEC4A2520C27AE30063CA23 /* Masonry */,
@@ -284,34 +262,6 @@
 				EFEC4A8E20C27AE30063CA23 /* Categories */,
 			);
 			path = Libs;
-			sourceTree = "<group>";
-		};
-		EFEC49FC20C27AE30063CA23 /* MJExtension */ = {
-			isa = PBXGroup;
-			children = (
-				EFEC49FD20C27AE30063CA23 /* MJPropertyKey.h */,
-				EFEC49FE20C27AE30063CA23 /* NSObject+MJClass.h */,
-				EFEC49FF20C27AE30063CA23 /* NSString+MJExtension.h */,
-				EFEC4A0020C27AE30063CA23 /* MJPropertyType.m */,
-				EFEC4A0120C27AE30063CA23 /* NSObject+MJProperty.h */,
-				EFEC4A0220C27AE30063CA23 /* MJExtensionConst.h */,
-				EFEC4A0320C27AE30063CA23 /* NSObject+MJKeyValue.m */,
-				EFEC4A0420C27AE30063CA23 /* MJProperty.m */,
-				EFEC4A0520C27AE30063CA23 /* MJFoundation.h */,
-				EFEC4A0620C27AE30063CA23 /* NSObject+MJCoding.m */,
-				EFEC4A0720C27AE30063CA23 /* MJExtension.h */,
-				EFEC4A0820C27AE30063CA23 /* MJExtensionConst.m */,
-				EFEC4A0920C27AE30063CA23 /* NSObject+MJProperty.m */,
-				EFEC4A0A20C27AE30063CA23 /* MJPropertyType.h */,
-				EFEC4A0B20C27AE30063CA23 /* NSObject+MJClass.m */,
-				EFEC4A0C20C27AE30063CA23 /* NSString+MJExtension.m */,
-				EFEC4A0D20C27AE30063CA23 /* MJPropertyKey.m */,
-				EFEC4A0E20C27AE30063CA23 /* MJProperty.h */,
-				EFEC4A0F20C27AE30063CA23 /* NSObject+MJKeyValue.h */,
-				EFEC4A1020C27AE30063CA23 /* NSObject+MJCoding.h */,
-				EFEC4A1120C27AE30063CA23 /* MJFoundation.m */,
-			);
-			path = MJExtension;
 			sourceTree = "<group>";
 		};
 		EFEC4A1220C27AE30063CA23 /* MMDrawerController */ = {
@@ -839,6 +789,22 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-l\"AFNetworking\"",
+					"-l\"ReactiveCocoa\"",
+					"-l\"SDWebImage\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.andyron.ARZhihuDaily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -858,6 +824,22 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-l\"AFNetworking\"",
+					"-l\"ReactiveCocoa\"",
+					"-l\"SDWebImage\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.andyron.ARZhihuDaily;
 				PRODUCT_NAME = "$(TARGET_NAME)";

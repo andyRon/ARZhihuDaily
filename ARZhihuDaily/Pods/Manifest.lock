@@ -20,6 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - MJExtension (3.0.13)
   - ReactiveCocoa (2.1.8):
     - ReactiveCocoa/Core (= 2.1.8)
     - ReactiveCocoa/no-arc (= 2.1.8)
@@ -32,20 +33,23 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5.4)
+  - MJExtension
   - ReactiveCocoa (~> 2.1.8)
   - SDWebImage (~> 4.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - MJExtension
     - ReactiveCocoa
     - SDWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
   ReactiveCocoa: f89f2e009a87951b50321bf9feb958823fcc617e
   SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
 
-PODFILE CHECKSUM: fad85aab1cdc74efda587c1507ba5c67b1023df7
+PODFILE CHECKSUM: 849b26ceb07998c671957f645a14da35b7d6e666
 
 COCOAPODS: 1.5.3
